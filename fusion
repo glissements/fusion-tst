@@ -55,8 +55,8 @@ The following example:
     </var-def>
     
     <!--exporting all original input columns-->
-<export include-original-data="true">
-<!--adding a new column with the http plugin result to the export file-->
-<single-column name="http" value="${http_response}"/>
-        </export>
+    <export include-original-data="true">
+        <!--adding a new column with the http plugin result to the export file-->
+        <single-column name="http" value="${http_response}"/>
+    </export>
 </config>  
